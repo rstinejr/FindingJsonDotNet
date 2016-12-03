@@ -11,6 +11,13 @@ To build this package:
 3. ```git clone git@github.com:rstinejr/FindingJsonDotNet.git```
 4. ```cd FindingJsonDotNet```
 5. ```dotnet restore```
-6. ```dotnet build```.  Or, to build and run, ```dotnet run```
+6. ```cd src```
+7. ```dotnet build```.  Or, to build and run, ```dotnet run```
 
+If you want to use Json.Net in a VisualStudio project, use NuGet to import
+package Newtonsoft.Json:
+1. Right click on *References* in the Solutions pane
+2. Select "Manage NuGet Packages..."
+3. In the NuGet window, select *Browse*
+4. Install the "Newtonsoft.Json package.
 
