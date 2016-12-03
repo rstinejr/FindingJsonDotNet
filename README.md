@@ -28,5 +28,6 @@ http://www.newtonsoft.com/json/help/html/Introduction.htm. There is also
 API documentation at the site.
 
 I'm no lawyer, but the only licensing restrictions of note appear to be:
+
 1. The license must accompany the code.
 2. The author is not liable for any damage caused by use of the software.
