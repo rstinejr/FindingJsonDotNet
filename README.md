@@ -2,7 +2,9 @@
 
 I'm reaquaiting myself with C# and learning the new ASP.NET Core.  Finding a good library for JSON serialization/deserialization was harder than I expected, so I thought I'd document how I did it.
 
-First off, for instructions on downloading and installing free Visual Studio and Open Source ASP.NET Core, see https://dotnet.github.io/.
+To prepare, 
+see https://dotnet.github.io/.
+for instructions on downloading and installing free Visual Studio and Open Source ASP.NET Core,
 
 To build this package:
 
@@ -21,3 +23,10 @@ package Newtonsoft.Json:
 3. In the NuGet window, select *Browse*
 4. Install the "Newtonsoft.Json package.
 
+Otherwise, download the package from
+http://www.newtonsoft.com/json/help/html/Introduction.htm. There is also
+API documentation at the site.
+
+I'm no lawyer, but the only licensing restrictions of note appear to be:
+1. The license must accompany the code.
+2. The author is not liable for any damage caused by use of the software.
