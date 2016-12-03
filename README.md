@@ -1,6 +1,6 @@
 # FindingJsonDotNet
 
-I'm reaquaiting myself with C# and learning the new ASP.NET Core.  Finding a good library for JSON serialization/deserialization was harder than I expected, so I thought I'd document how I did it.
+I'm reacquainting  myself with C# and learning the new ASP.NET Core.  Finding a good library for JSON serialization/deserialization was harder than I expected, so I thought I'd document how I did it.
 
 To prepare, 
 see https://dotnet.github.io/.
