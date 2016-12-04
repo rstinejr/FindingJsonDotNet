@@ -16,11 +16,11 @@ To build this package:
 
 1. If on Windows, download and install VisualStudio 2015 rev 3.
 2. Install ASP.Net Core
-3. ```git clone git@github.com:rstinejr/FindingJsonDotNet.git```
-4. ```cd FindingJsonDotNet```
-5. ```dotnet restore```
-6. ```cd src```
-7. ```dotnet build```.  Or, to build and run, ```dotnet run```
+3. `git clone git@github.com:rstinejr/FindingJsonDotNet.git`
+4. `cd FindingJsonDotNet`
+5. `dotnet restore`
+6. `cd src`
+7. `dotnet build`.  Or, to build and run, `dotnet run`
 
 ## Configuring Your Projects
 
@@ -38,7 +38,7 @@ API documentation at the site.
 
 ## Licenses
 
-The license for my work is in file ``LICENSE``. In a nutshell, do what you want with this other than claim you wrote it or blame 
+The license for my work is in file `LICENSE`. In a nutshell, do what you want with this other than claim you wrote it or blame 
 me for any problems.
 
 The licensing for Json.Net is only slightly more restrictive.  I'm no lawyer, but the only restrictions of note appear to be:
