@@ -18,6 +18,7 @@ To build this package:
 
 If you want to use Json.Net in your own VisualStudio project, use NuGet to import
 package Newtonsoft.Json:
+
 1. Right click on *References* in the Solutions pane
 2. Select "Manage NuGet Packages..."
 3. In the NuGet window, select *Browse*
