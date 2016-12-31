@@ -22,6 +22,22 @@ To build this package:
 6. `cd src`
 7. `dotnet build`.  Or, to build and run, `dotnet run`
 
+## Creating JSON, Deserializing JSON
+
+This program illustrates creating a JSON string and then deserializing the string into 
+a class instance.  Output from running is:
+
+```
+src> dotnet run
+Project src (.NETCoreApp,Version=v1.0) was previously compiled. Skipping compilation.
+Roll Tide! {"School":"University of Alabama","Sport":"Football","Ranking":1}
+Deserialized: School 'University of Alabama', Sport 'Football', City: ''
+```
+
+Note that the JSON string has a field that the class lacks (viz., *Ranking*), and the
+Class has a field that the JSON lacks (viz., *City*). Deserialization ignores the
+unmapped fields from JSON and uses the default values for fields that the JSON lacks.
+
 ## Configuring Your Projects
 
 If you want to use Json.Net in your own VisualStudio project, use NuGet to import

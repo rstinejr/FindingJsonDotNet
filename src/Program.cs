@@ -23,6 +23,24 @@ namespace FindingJsonDotNet
             jw.WriteEndObject();
 
             Console.WriteLine($"Roll Tide! {sw.ToString()}");
+
+            // Note property misalignment: Class 'CollegeSport' does not have "Ranking", JSON does not have "City".
+
+            CollegeSport fromJson = JsonConvert.DeserializeObject<CollegeSport>(sw.ToString());
+
+            Console.WriteLine($"Deserialized: {fromJson}");
+        }
+    }
+
+    class CollegeSport
+    {
+        public string School { get; set; }
+        public string Sport  { get; set; }
+        public string City   { get; set; }
+
+        public override string ToString()
+        {
+            return $"School '{School}', Sport '{Sport}', City: '{City}'";
         }
     }
 }
