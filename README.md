@@ -8,7 +8,7 @@ To prepare,
 see https://dotnet.github.io/.
 for instructions on downloading and installing free Visual Studio and Open Source ASP.NET Core,
 
-This project was built and run on a 64-bit Windows 10 Pro, with dotnet version 1.0.0-preview2-003131 and VisualStudo 2015 release 3.
+This project was built and run on a 64-bit Windows 10 Pro, with dotnet version 1.0.0 and VisualStudo 2015 release 3.
 
 ## Building Project
 
