@@ -57,7 +57,7 @@ API documentation at the site.
 The license for my work is in file `LICENSE`. In a nutshell, do what you want with this other than claim you wrote it or blame 
 me for any problems.
 
-The licensing for Json.Net is only slightly more restrictive.  I'm no lawyer, but the only restrictions of note appear to be:
+The licensing for Json.Net is only slightly more restrictive.  I'm no lawyer, but the only constraints appear to be:
 
 1. The license must accompany the code.
 2. The author is not liable for any damage caused by use of the software.
