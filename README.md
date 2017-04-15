@@ -4,23 +4,20 @@ I'm reacquainting  myself with C# and learning the new ASP.NET Core.  Finding a 
 
 ## Setup
 
-To prepare, 
-see https://dotnet.github.io/.
-for instructions on downloading and installing free Visual Studio and Open Source ASP.NET Core,
+To prepare, see https://www.microsoft.com/net for instructions on downloading and installing free Visual Studio and Open Source ASP.NET Core,
 
-This project was built and run on a 64-bit Windows 10 Pro, with dotnet version 1.0.0 and VisualStudo 2015 release 3.
+This project was built and run on a 64-bit Windows 10 Pro, initially with dotnet version 1.0.0 and VisualStudo 2015 release 3. It has been updated
+to dotnet version 1.1.0.
 
 ## Building Project
 
-To build this package:
+To build this package, first install .NET Core 1.1.  Next,
 
-1. If on Windows, download and install VisualStudio 2015 rev 3.
-2. Install ASP.Net Core
-3. `git clone git@github.com:rstinejr/FindingJsonDotNet.git`
-4. `cd FindingJsonDotNet`
-5. `dotnet restore`
-6. `cd src`
-7. `dotnet build`.  Or, to build and run, `dotnet run`
+1. `git clone git@github.com:rstinejr/FindingJsonDotNet.git`
+2. `cd FindingJsonDotNet`
+3. `dotnet restore`
+4. `cd src`
+5. `dotnet build`.  Or, to build and run, `dotnet run`
 
 ## Creating JSON, Deserializing JSON
 
@@ -29,7 +26,6 @@ a class instance.  Output from running is:
 
 ```
 src> dotnet run
-Project src (.NETCoreApp,Version=v1.0) was previously compiled. Skipping compilation.
 Roll Tide! {"School":"University of Alabama","Sport":"Football","Ranking":1}
 Deserialized: School 'University of Alabama', Sport 'Football', City: ''
 ```
