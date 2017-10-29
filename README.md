@@ -13,7 +13,7 @@ to dotnet version 1.1.0.
 
 To build this package, first install .NET Core 1.1.  Next,
 
-1. `git clone git@github.com:rstinejr/FindingJsonDotNet.git`
+1. `git clone https://github.com/rstinejr/FindingJsonDotNet.git`
 2. `cd FindingJsonDotNet`
 3. `dotnet restore`
 4. `cd src`
